@@ -1,0 +1,44 @@
+.information
+    position: relative
+    z-index: 9
+    padding: 150px 0
+    color: #ffffeb
+    
+    &::after
+        content: ''
+        position: absolute
+        z-index: -1
+        height: 100%
+        width: 100%
+        top: 0
+        left: 0
+        background: url('../img/information-bg.jpeg') center no-repeat
+        background-size: cover
+        background-attachment: fixed
+        filter: brightness(40%)
+    &-item
+        margin-bottom: 40px
+        padding-bottom: 25px
+        font-weight: 700
+        border-bottom: 1px solid #fff
+        &__title
+            
+            font-size: 14px
+            margin-bottom: 20px
+        &__text
+            font-size: 22px
+        &__decr
+            font-weight: 400
+            color: #ffffffa3
+    &-left__title
+        margin-bottom: 40px
+        font-size: 42px
+        font-weight: 700
+    &-button
+        display: inline-block
+@media (max-width: 992px)
+    .information
+        padding: 75px 0
+        &-left__title
+            font-size: 26px
+            margin-bottom: 80px

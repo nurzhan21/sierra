@@ -1,0 +1,40 @@
+.footer
+    padding-top: 100px
+    padding-bottom: 40px
+    background-color: #011627
+    color: #f9f8f8
+    &-text
+        line-height: 24px
+    &-title
+        font-size: 22px
+        margin-bottom: 24px
+    &-menu
+        list-style: none
+        padding-left: 0
+        &__item
+            line-height: 24px
+            & a
+                color: #f9f8f8
+                &:hover
+                    color: #d94948
+.copyright
+    display: flex
+    justify-content: space-between
+    margin-top: 60px
+    & div
+        color: #55636E
+    & a
+        color: #55636E
+@media (max-width: 992px)
+    .footer
+        padding-top: 75px
+        &-text
+            margin-bottom: 24px
+        &-title
+            font-size: 20px
+            margin-bottom: 15px
+    .copyright
+        flex-direction: column
+        margin-top: 40px
+        & div
+            margin-bottom: 20px
