@@ -302,6 +302,9 @@ img {
 .service-block__img {
   margin-bottom: 30px;
 }
+.service-block__img img {
+  min-height: 640px;
+}
 .service-block__title {
   display: inline-block;
   margin-bottom: 15px;
